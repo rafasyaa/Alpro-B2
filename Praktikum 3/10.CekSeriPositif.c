@@ -9,20 +9,20 @@
 int main()
 {
     /*Kamus*/
-    int r1, r2, r3;
-    int X;
+    float r1, r2, r3;
+    float X;
 
     /*Algoritma*/
     printf("Cek Seri Positif \n");
     printf("Masukkan nilai r1 = ");
-    scanf("%d", &r1);
+    scanf("%f", &r1);
     printf("Masukkan nilai r2 = ");
-    scanf("%d", &r2);
+    scanf("%f", &r2);
     printf("Masukkan nilai r3 = ");
-    scanf("%d", &r3);
+    scanf("%f", &r3);
     if (r1 >= 0 && r2 >= 0 && r3 >= 0){
         X = r1+r2+r3;
-        printf("Total tahanan adalah = %d", X);
+        printf("Total tahanan adalah = %.2f", X);
     }
     else {
         printf("Masukan tahanan tidak boleh negatif");
