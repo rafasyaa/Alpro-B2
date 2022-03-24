@@ -26,7 +26,7 @@ int main()
         while(tinggi >= 0 && tinggi < N){
             tinggi = tinggi + 0.3;
             if(tinggi < N){
-            tinggi = tinggi - 0.1;
+                tinggi = tinggi - 0.1;
             }
             hari = hari + 1;
         }
